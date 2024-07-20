@@ -1,0 +1,113 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 40px 0 40px;
+  background-color: white;
+  height: 70px;
+  margin-top: -5px;
+}
+.logo {
+  align-self: center;
+}
+.LoginSignUp {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  width: 200px;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+.SignUp {
+  color: #2d2d2d;
+
+  text-decoration: none;
+  align-self: center;
+}
+.Login {
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  border-radius: 4px;
+  background-color: #3366ff;
+  margin-right: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #f7f5fd;
+  width: 100%;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  padding-bottom: 90px;
+  padding-top: 30px;
+}
+.wallpaper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -40px;
+}
+.wallpaper img {
+  width: 410px;
+  position: relative;
+  top: 60px;
+}
+
+.contend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: -30px;
+}
+
+.slogan {
+  font-size: 5em;
+  width: 350px;
+  height: 170px;
+  text-align: left;
+  align-self: center;
+  color: #2d2d2d;
+}
+.discreption {
+  color: #2d2d2d;
+  align-self: center;
+  width: 350px;
+  margin-top: -10px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.getStarted {
+  width: 130px;
+  background-color: #f8d57e;
+  border: none;
+  padding: 15px 0px 15px 0;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #2d2d2d;
+}
+
+.main2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
